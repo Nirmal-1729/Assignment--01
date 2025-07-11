@@ -131,11 +131,53 @@ class Ap{
         // System.out.println(a);  
         
         // Q14
-        int a,l;
-        a=184;
-        l=16;
-        l=(184*2/16);
-        System.out.println(l);
+
+        // int a,l;
+        // a=184;
+        // l=16;
+        // l=(184*2/16);
+        // System.out.println(l);
+
+
+        // Q15
+
+        int st = 22;
+        int sb = 15;
+        int rl = 21;
+        int as = st * sb;
+        int ar = rl * rl;
+        int big = ar - as;
+        System.out.println("Big Area: " + big);
+
+     
+        // Q16
+
+        int l = 7;
+        int b = 5;
+        int a = l * b;
+        System.out.println("area of Room: " + a);
+
+      
+        // Q17
+
+        int l = 3;
+        int w = 2;
+        int r = 2 * (l + w);
+        System.out.println("ribbon:" + r);
+
+
+        // Q18
+
+        int l = 50;
+        int b = 30;
+        int P = 2 * (l + b);
+        int tdm = P * 10;
+        int tdkm = tdm / 1000;
+        System.out.println("Total Distance in m: " + tdm);
+        System.out.println("Total Distance in km: " + tdkm);
+   
+
+
 
 
 
